@@ -1,0 +1,45 @@
+<!-- 
+
+  <ng-container *ngFor="let produ of productList">
+<div class="card col-md-3 ">
+    
+      <img src="../../assets/images/{{products?.productName}}.jpg" alt="...">
+      
+          <h3><strong>ProductName : {{products?.productName}}</strong></h3>
+          <h3><strong>Category : {{products?.category}}</strong></h3>
+      
+          <p><strong>Price : ${{products?.price}}</strong></p>
+      
+         <p> <strong>Rating : {{products?.ratings}}</strong></p>
+          
+         <button  class="btn btn-primary" (click)="addtocart(products)">Add to Cart</button>
+          <br>
+  
+      
+        
+        </div>
+     
+    
+
+      </ng-container> -->
+
+      <mat-card class="matcard">
+        <a routerLink="../products-detail/{{items?.id}}">
+       <div>
+        <img src="../../assets/images/{{items?.productName}}.jpg" alt="" width="200px" height="180px" >
+    <div>
+        <mat-card-title>{{items?.productName}}</mat-card-title>
+          <!-- <mat-card-content>{{items?.category}}</mat-card-content> -->
+          <mat-card-subtitle>Price : ${{items?.price}}</mat-card-subtitle>
+        <mat-chip class="chip"><span>★ {{items?.ratings}}</span></mat-chip>
+      </div>
+      </div>
+    </a>
+    <div>
+        <mat-card-footer>
+            <button mat-raised-button (click)="addtocart(items)" >Add Cart</button>
+        </mat-card-footer>
+      </div>
+        </mat-card>
+     
+    

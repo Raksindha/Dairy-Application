@@ -1,0 +1,156 @@
+/* .card{
+    height: 70vh;
+   
+    margin: 25px;
+    padding: 25px;
+    margin-left: 50px;
+    background-color:darkgrey;
+   
+}
+.card-title{
+  font-weight: bold;
+  margin-top: 20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    text-align: center;
+
+    
+}
+.center img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+   
+    outline: none;
+    height:170px;
+    width: 260px 0px;
+    margin-bottom: 40px;
+}
+.center h6,h4{
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-table{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-color: #fff;
+   
+
+}
+.center.btn{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    font-weight: 400;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+} */
+/* .back{
+    /* background-color:lightblue; */
+   /* height: 1000px; */
+.back{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+   
+}
+
+h2{
+    font-size: 25px;
+    padding: 5px 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+
+}
+.content{
+    background-color: white;
+    width: 900px;
+   padding-top: 10px;
+   margin-top: 40px;
+    /* border:1px solid black */
+}
+th{
+   padding: 10px 37px;
+}
+td{
+    padding: 10px 32px;
+}
+
+.plus{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.minus{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+tr{
+    
+    border: 2px solid black;
+    font-family: "Times New Roman", Times, serif;
+}
+.example-full-width{
+    margin-left: 3px;
+}
+
+.overallpricecontainer{
+    float: right;
+    width: 350px;
+    margin-top: 50px;
+     position: absolute;
+      margin-left:70%;
+    background-color: white;
+    padding: 20px;
+    font-size: medium;
+    line-height: 25px;
+    margin-right: 10px;
+}
+.totalpricediv{
+display: flex;
+justify-content: space-between;
+}
+.Charges{
+    text-decoration:line-through
+}
+.savesentence{
+    margin-top: 20px;
+}
+
+.delete{
+    background-color: rgba(167, 10, 10, 0);
+    border: none;
+}
+.total{
+    color: green;
+    font-weight: 600;
+}
+.quantity{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.safe{
+    float: right;
+    position: fixed;
+    margin-top: 400px;
+    width: 330px;
+    padding: 5px 5px;
+    margin-left: 70%;
+}
+.orderbtn{
+    background-color: red;
+    margin-left: 50px;
+    color: white;
+    padding: 23px 30px;
+    font-size: medium;
+}
+

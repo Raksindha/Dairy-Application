@@ -1,0 +1,63 @@
+/* 
+.spacer{
+    flex: 1 1 auto;
+    margin: 2px;
+}
+.form-control{
+    border-radius: 2px;
+    width: 600px;
+    margin-left: 40%;
+}
+
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 27%;
+    top: 20px;
+    color: blue;
+}
+.btn{
+    color: white;
+    border: none;
+    margin-left: 60%;
+ 
+     
+}
+.btn:hover{
+    color:darkgray
+} */
+/* .span{
+    display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: 'Black Ops One', system-ui;
+  letter-spacing: 2px;
+
+} */
+.logo{
+    width: 1080px;
+    text-align: center;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+ a{
+    padding-right: 30px;
+  }
+.icon mat-icon{
+    color: rgb(12, 3, 3);
+    float: right;
+    margin-left: 20px;
+
+}
+strong{
+    margin-left: 10px;
+}
+mat-toolbar{
+    /* background-image: linear-gradient(to right, rgb(237, 242, 243) , rgb(130, 240, 234)); */
+    background-image: linear-gradient(to right,rgb(246, 249, 250), rgb(61, 106, 240),rgb(205, 214, 237));
+    
+}
+
+
+

@@ -1,0 +1,48 @@
+/* .form{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    width: fit-content;
+    padding: 40px;
+    background-color: lightblue;
+    /* align-items: self-start */
+    /* margin-left: 36%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+h2{
+    margin: 10px;
+    padding: 10px;
+}
+.email{
+    margin: 10px;
+    padding: 10px;
+}
+.password{
+    margin: 10px;
+    padding: 10px;
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+button{
+    color: deepskyblue;
+}
+input{
+    margin-left: 5px;
+} */ 
+#login-form{
+    padding-left: 30em;
+    padding-top: 80px;
+    padding-bottom: 22.5em;
+    
+}
+h3{
+    font-size: x-large;
+    color: brown;
+}
+button{
+    font-size: x-large;
+}

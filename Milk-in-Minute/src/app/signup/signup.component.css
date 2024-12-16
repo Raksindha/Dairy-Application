@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take up the full height of the viewport */
+  }
+  
+  .signup-form {
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+  }
+  
+  .signup-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form form div {
+    margin-bottom: 10px;
+  }
+  
+  .signup-form form label {
+    margin-bottom: 5px;
+  }
+  
+  .signup-form form input {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .signup-form form button {
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff; /* You can adjust the color as needed */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-form form button:hover {
+    background-color: #0056b3; /* You can adjust the hover color as needed */
+  }
+  

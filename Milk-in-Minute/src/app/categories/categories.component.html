@@ -1,0 +1,102 @@
+<!-- 
+<div class="card-top container-fluid">
+  <div class="container d-flex ">
+  <div class="item">
+   <a (click)="click()"><h5>All</h5>
+      </a>
+    </div>
+    <div class="item">
+      <a >
+      <h5>Milk</h5>
+      </a>
+    </div>
+    <div class="item">
+      <a >
+      <h5>Cheese</h5>
+      </a>
+    </div>
+    <div class="item">
+     <a >
+      <h5>Cream</h5>
+      </a>
+    </div>
+    <div class="item">
+      <a >
+      <h5>Yogurt</h5>
+      </a>
+    </div>
+  </div>
+</div> -->
+
+
+
+<!-- <div *ngFor="let product of filteredProducts">
+  <p>{{ product.name }}</p> -->
+<!-- </div> -->
+
+
+
+<!-- 
+<div id="menu">
+  <mat-basic-chip>
+    <mat-chip-option value="cake" (click)="selectFilter(item)">Cake
+      value="cookie" (click)="click()">Cookies
+      value="brownie" (click)="click()">Brownies>
+    </mat-chip-option>
+  </mat-basic-chip>
+</div> --> 
+
+
+
+
+<div id="menu">
+  <button id="category" mat-raised-button [matMenuTriggerFor]="menu">Category</button>
+  <mat-button-toggle-group  [(ngModel)]="filter">
+  <mat-menu #menu="matMenu">
+          <mat-button-toggle value="Milk" (click)="click()">Milk</mat-button-toggle>
+          <mat-button-toggle value="Cheese" (click)="click()">Cheese</mat-button-toggle>
+          <mat-button-toggle value="Cream" (click)="click()">Cream</mat-button-toggle>
+      </mat-menu>
+  </mat-button-toggle-group>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="menu">
+  <button id="category" mat-raised-button [matMenuTriggerFor]="menu">Category</button>
+  <mat-button-toggle-group  [(ngModel)]="filter">
+  <mat-menu #menu="matMenu">
+          <mat-button-toggle value="Yogurt" (click)="click()">Yogurt</mat-button-toggle>
+          <mat-button-toggle value="Milk" (click)="click()">Milk</mat-button-toggle>
+          <mat-button-toggle value="Cheese" (click)="click()">Cheese</mat-button-toggle>
+          <mat-button-toggle value="Cream" (click)="click()">Cream</mat-button-toggle>
+      </mat-menu>
+  </mat-button-toggle-group>
+  </div> -->
+<!-- <div class="category">
+  <div class="text">
+    <ul>
+      
+        <li> <a (click)="click(Yogurt)">Yogurt</a></li>
+      
+     
+        <li> <a (click)="click(Milk)">Milk </a></li>
+     
+      
+        <li> <a (click)="click(Cream)">Cream</a></li>
+   
+     
+        <li> <a (click)="click(Cheese)">Cheese</a></li>
+    </ul>
+  </div>
+</div> -->

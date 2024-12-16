@@ -1,0 +1,32 @@
+/* ul{
+    display: flex;
+    list-style: none;
+   
+}
+button{ */
+    /* border: none;
+    margin: 15px;
+
+}
+ h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+    padding-top: 5px;
+
+
+}
+.container{
+   margin-bottom: 10px;
+    background-color: gainsboro;
+}
+
+ */
+ .categories-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow chips to wrap to the next line if needed */
+    gap: 8px; /* Adjust the gap between chips as needed */
+  }
+

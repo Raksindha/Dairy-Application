@@ -1,0 +1,9 @@
+<div id="login-form">
+    <h3>If you are an Administrator, enter your Admin Code</h3>
+    <mat-form-field appearance="fill">
+        <mat-label>Enter Admin Code</mat-label>
+        <input matInput type="password" name="adminCode" [(ngModel)]="adminCode" placeholder="Admin Code">
+    </mat-form-field>
+    <button (click)="loginuser()" mat-button color="primary" >Submit</button>
+    <h3>If you are a Customer, <button routerLink="">click here</button></h3>
+</div>

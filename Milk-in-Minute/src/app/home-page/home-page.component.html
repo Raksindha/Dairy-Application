@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+
+<app-categories (filterEvent)="onClick($event)"></app-categories>
+<app-search (searchNote)="onSearchNote($event)"></app-search>
+<app-products *ngFor="let p of m" [items]="p"></app-products>
+
+<app-footer></app-footer>
+
+
